@@ -1,0 +1,4 @@
+Current dev version:
+
+We are currently working on v2
+This version will bring back most of the depreciated features from v1
