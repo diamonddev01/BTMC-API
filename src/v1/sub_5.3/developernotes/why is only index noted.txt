@@ -1,0 +1,3 @@
+Only the index.js file is noted as (currently) its the only one specifically typed out to be so, the rest of the files have been uploaded and been unedited.
+
+Slowly I plan on noting on some more of the files however this may only come in v2 as v1 is (unfortunately) reaching the end of its life.
