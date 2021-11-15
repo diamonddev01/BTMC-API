@@ -1,4 +1,12 @@
-const https = require('https') // Make requests to wb servers
+const https = require('https');
+
+/*
+
+Note:
+This code is not used on the main version of BTMC api.
+It may be readded in v2 however the function is no longer needed and didnt work well.
+
+*/
 
 module.exports = async (req, res, path, meta) => {
   https.get(`https://btmc.repl.co/service/reports/ghostpingreport/${meta[0]}/${meta[1]}/${meta[2]}`, (res2)=>{
@@ -8,9 +16,3 @@ module.exports = async (req, res, path, meta) => {
     res.sendStatus(500)
   })
 }
-/*
-
-This code is no longer in operation on the main API server and will return a 404 code.
-It is here for rememberance purposes only
-
-*/
